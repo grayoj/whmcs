@@ -1,0 +1,13 @@
+[2.6.2][25-05-2022]
+- Now from whmcs servers list page, user can login to admin panel if "enable_admin_sso" is enabled in virtualizor_conf.php.
+- Added default_language variable in virtualizor_conf file to set default language of enduser panel.
+- Added handling for iso custom fields.
+
+[2.6.1][23-02-2022]
+- Updated module with csrf checking while user operation for start/stop/poweroff/restart vps
+- Handled multiple coming from stackpath in callback
+
+[2.6.0][20-01-2022]
+- Updated enduser ui to new theme
+- If user set bandiwdth as -1 then we will set it as zero
+- When user changes hostname from admin panel of whmcs it was not getting updated in virtualizor on change package
